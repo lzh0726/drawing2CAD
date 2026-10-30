@@ -1,0 +1,13 @@
+{
+  "gpu": [
+    "2",
+    "GPU-99509b31-e336-97e0-cd22-7c186fb7695b"
+  ],
+  "snapshot": "0, GPU-fe37abf2-e115-18f1-7077-0fdbe1b9afe3, 44144, 100\n1, GPU-1062e0d5-0954-c4b0-2fe6-1f32ecd72beb, 44143, 100\n2, GPU-99509b31-e336-97e0-cd22-7c186fb7695b, 17, 0\n3, GPU-59205722-a9c0-114b-e55f-87820c96dd66, 17, 0\n",
+  "repairs": 0,
+  "max_new_tokens": 2048,
+  "image_max_pixels": 262144,
+  "model": "/home/luzhuohong/drawing2CAD/models/drawing2cad-v1",
+  "test_manifest": "datasets/pilot-v1/manifest.jsonl",
+  "checkpoint_selection": "validation loss only"
+}

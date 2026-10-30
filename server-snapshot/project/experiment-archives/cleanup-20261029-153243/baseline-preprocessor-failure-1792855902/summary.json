@@ -1,0 +1,9 @@
+{
+  "n": 50,
+  "valid_solids": 0,
+  "metric_completed": 0,
+  "mean_iou_raw_all": 0.0,
+  "mean_iou_translation_aligned_all": 0.0,
+  "mean_seconds": 0.006120000000000003,
+  "failed_metrics_counted_as_zero": true
+}

@@ -1,0 +1,11 @@
+{
+  "gpu": 2,
+  "gpu_before_load": "0, 44144, 100\n1, 44143, 100\n2, 17, 0\n3, 17, 0\n",
+  "model": "qwen3-vl-8b-instruct",
+  "repairs": 0,
+  "seed": 42,
+  "samples": 50,
+  "max_new_tokens": 2048,
+  "image_max_pixels": 262144,
+  "alignment": "raw plus translation only; no scale fitting"
+}

@@ -1,0 +1,46 @@
+{
+  "completed_count": 44,
+  "test_count": 44,
+  "valid_solid_count": 36,
+  "invalid_count": 8,
+  "pending_count": 0,
+  "valid_solid_rate": 0.8181818181818182,
+  "metric_error_ids": [],
+  "bbox_xyz_within_1pct_count": 31,
+  "bbox_xyz_within_5pct_count": 33,
+  "mean_iou_raw_successful_comparable": 0.6510083733788606,
+  "mean_iou_raw_all": 0.5326432145827041,
+  "mean_iou_translation_aligned_successful_comparable": 0.8544131346837899,
+  "mean_iou_translation_aligned_all": 0.6990652920140099,
+  "status": "completed",
+  "finished_at": "2026-10-28T18:35:19.072247+00:00",
+  "sources_unchanged": true,
+  "baseline": {
+    "completed_count": 44,
+    "test_count": 44,
+    "valid_solid_count": 35,
+    "invalid_count": 9,
+    "pending_count": 0,
+    "valid_solid_rate": 0.7954545454545454,
+    "metric_error_ids": [],
+    "bbox_xyz_within_1pct_count": 29,
+    "bbox_xyz_within_5pct_count": 31,
+    "mean_iou_raw_successful_comparable": 0.6478480739501074,
+    "mean_iou_raw_all": 0.5153336951875854,
+    "mean_iou_translation_aligned_successful_comparable": 0.8388994299390874,
+    "mean_iou_translation_aligned_all": 0.6673063647242743
+  },
+  "protocol_file": "/data/luzhuohong/drawing2CAD-experiments/a3-test-20261029-v1/protocol.json",
+  "newly_valid_ids": [
+    "test-00354124",
+    "test-00118368",
+    "test-00442545",
+    "test-00361382"
+  ],
+  "regressed_ids": [
+    "test-00966577",
+    "test-00152464",
+    "test-00002718"
+  ],
+  "mean_seconds": 159.9678409090909
+}

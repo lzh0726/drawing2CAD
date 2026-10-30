@@ -1,0 +1,9 @@
+{
+  "cpu_seconds": 120,
+  "wall_seconds": 180,
+  "memory_gib": 6,
+  "parallel": false,
+  "formula": "Unchanged exact Boolean intersection/union; original and bbox-center translated coordinates",
+  "scope": "Compare saved STEP only, never run generated CAD code",
+  "worker_sha256": "6af7a3c59c610a7b099d182423ea16af5c82e50484a255f341592a63545eeb73"
+}

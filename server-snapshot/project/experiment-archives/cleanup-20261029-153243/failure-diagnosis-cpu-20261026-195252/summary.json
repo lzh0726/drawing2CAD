@@ -1,0 +1,461 @@
+{
+  "directory": "/home/luzhuohong/drawing2CAD/experiments/failure-diagnosis-cpu-20261026-195252",
+  "count": 10,
+  "source_records_unchanged": true,
+  "gpu_started": false,
+  "sandbox_probe": {
+    "home_hidden": true,
+    "root_readonly": true,
+    "network_blocked": true,
+    "gpu_hidden": true,
+    "env_cleared": true
+  },
+  "records": [
+    {
+      "id": "test-00118368",
+      "original_attempts": [
+        {
+          "number": 1,
+          "status": "failed",
+          "error": "Invalid Python syntax. Return a complete CadQuery program."
+        }
+      ],
+      "response_tokens_reencoded": 2048,
+      "closed_code_fence": false,
+      "sketch_blocks": 7,
+      "repeated_normalized_lines": 20,
+      "policy": "SyntaxError: invalid syntax (<unknown>, line 1)",
+      "body_syntax": {
+        "message": "'(' was never closed",
+        "line": 34,
+        "text": "loop6=wp_sketch6.moveTo(0.039473684210526314, 0.0).lineTo(0.03947368\n"
+      },
+      "classification": "incomplete_generation_with_repetition",
+      "reference_replay": {
+        "valid": true,
+        "geometry": {
+          "valid": true,
+          "dimensions": [
+            0.08404605263157894,
+            1.140625,
+            0.03125
+          ],
+          "center": [
+            0.01858552631578947,
+            0.1796875,
+            0.015625
+          ],
+          "volume": 0.0028786222231015493,
+          "broad_dimensions": [
+            0.08404635263157893,
+            1.1406253,
+            0.031250299999999995
+          ],
+          "geometric_signature": "[[0.027, 0.074, 1.0], 0.002, 0.213, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.002, 0.027, 0.027, 0.07, 0.072]]",
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "id": "test-00186338",
+      "original_attempts": [
+        {
+          "number": 1,
+          "status": "failed",
+          "error": "Invalid Python syntax. Return a complete CadQuery program."
+        }
+      ],
+      "response_tokens_reencoded": 2048,
+      "closed_code_fence": false,
+      "sketch_blocks": 11,
+      "repeated_normalized_lines": 35,
+      "policy": "SyntaxError: invalid syntax (<unknown>, line 1)",
+      "body_syntax": {
+        "message": "'(' was never closed",
+        "line": 53,
+        "text": "wp_sketch10 = cq.Workplane(cq.Plane(cq.Vector(-0.125, 0.0, 0.0), cq.Vector(1.0,\n"
+      },
+      "classification": "incomplete_generation_with_repetition",
+      "reference_replay": {
+        "valid": true,
+        "geometry": {
+          "valid": true,
+          "dimensions": [
+            0.265625,
+            0.75,
+            0.7421052631578947
+          ],
+          "center": [
+            0.0,
+            0.375,
+            0.37105263157894736
+          ],
+          "volume": 0.01845787963167847,
+          "broad_dimensions": [
+            0.2656253,
+            0.7500003,
+            0.7421055631578948
+          ],
+          "geometric_signature": "[[0.354, 0.989, 1.0], 0.044, 1.485, [0.002, 0.002, 0.002, 0.002, 0.004, 0.004, 0.004, 0.004, 0.004, 0.004, 0.004, 0.004, 0.008, 0.008, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.011, 0.012, 0.02, 0.028, 0.04, 0.046, 0.047, 0.056, 0.065, 0.065, 0.111, 0.166, 0.167, 0.261, 0.261]]",
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "id": "test-00306373",
+      "original_attempts": [
+        {
+          "number": 1,
+          "status": "failed",
+          "error": "ValueError: invalid_or_multiple_solids\n"
+        }
+      ],
+      "response_tokens_reencoded": 354,
+      "closed_code_fence": true,
+      "sketch_blocks": 1,
+      "repeated_normalized_lines": 0,
+      "policy": "passed",
+      "replay": {
+        "valid": false,
+        "error": "ValueError: invalid_or_multiple_solids\n"
+      },
+      "replay_seconds": 3.304,
+      "instrumented": {
+        "returncode": 2,
+        "wall_timeout": false
+      },
+      "trace_tail": "CANDIDATE_LINE 1\nCANDIDATE_LINE 3\nCANDIDATE_LINE 4\nCANDIDATE_LINE 5\nCANDIDATE_LINE 6\nCANDIDATE_LINE 7\nCANDIDATE_LINE 8\nCANDIDATE_LINE 10\nValueError: invalid_or_multiple_solids {\"count\": 1, \"valid\": [false], \"volumes\": [0.1527483039340791]}\n",
+      "classification": "invalid_geometry",
+      "reference_replay": {
+        "valid": true,
+        "geometry": {
+          "valid": true,
+          "dimensions": [
+            1.078125,
+            0.7500000000000001,
+            0.1929276315789475
+          ],
+          "center": [
+            -0.0234375,
+            -0.37499999999999994,
+            -0.09884868421052631
+          ],
+          "volume": 0.032667489581450646,
+          "broad_dimensions": [
+            1.0781253,
+            0.7500003000000001,
+            0.1929279315789475
+          ],
+          "geometric_signature": "[[0.179, 0.696, 1.0], 0.026, 2.506, [0.002, 0.002, 0.07, 0.102, 0.102, 0.124, 0.124, 0.149, 0.152, 0.177, 0.179, 0.626, 0.696]]",
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "id": "test-00354124",
+      "original_attempts": [
+        {
+          "number": 1,
+          "status": "failed",
+          "error": "Invalid Python syntax. Return a complete CadQuery program."
+        }
+      ],
+      "response_tokens_reencoded": 2048,
+      "closed_code_fence": false,
+      "sketch_blocks": 6,
+      "repeated_normalized_lines": 15,
+      "policy": "SyntaxError: invalid decimal literal (<unknown>, line 29)",
+      "body_syntax": {
+        "message": "invalid decimal literal",
+        "line": 28,
+        "text": "wp_sketch5 = cq.Workplane(cq.Plane(cq.Vector(-0.5, 0.0, 0.0), cq.Vector(1.0, 6.123233995736766e-"
+      },
+      "classification": "incomplete_generation_with_repetition",
+      "reference_replay": {
+        "valid": true,
+        "geometry": {
+          "valid": true,
+          "dimensions": [
+            1.0776315789473685,
+            0.20312500000000006,
+            1.0892269736842106
+          ],
+          "center": [
+            0.13256578947368425,
+            -0.10156249999999997,
+            -0.20513980263157897
+          ],
+          "volume": 0.07300925995061475,
+          "broad_dimensions": [
+            1.0776317789473684,
+            0.20312520000000006,
+            1.0892271736842105
+          ],
+          "geometric_signature": "[[0.186, 0.989, 1.0], 0.056, 1.573, [0.0, 0.01, 0.01, 0.032, 0.076, 0.076, 0.099, 0.113, 0.213, 0.303, 0.303, 0.339]]",
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "id": "test-00361382",
+      "original_attempts": [
+        {
+          "number": 1,
+          "status": "failed",
+          "error": "Invalid Python syntax. Return a complete CadQuery program."
+        }
+      ],
+      "response_tokens_reencoded": 2048,
+      "closed_code_fence": false,
+      "sketch_blocks": 8,
+      "repeated_normalized_lines": 24,
+      "policy": "SyntaxError: invalid syntax (<unknown>, line 1)",
+      "body_syntax": "passed",
+      "classification": "incomplete_generation_with_repetition",
+      "reference_replay": {
+        "valid": true,
+        "geometry": {
+          "valid": true,
+          "dimensions": [
+            0.8671875000000001,
+            0.5390625,
+            0.5385690789473686
+          ],
+          "center": [
+            -0.31640624999999994,
+            -0.26953125,
+            -0.035402960526315766
+          ],
+          "volume": 0.19124857463995182,
+          "broad_dimensions": [
+            0.8671877000000004,
+            0.5390627000000003,
+            0.5385692789473688
+          ],
+          "geometric_signature": "[[0.621, 0.622, 1.0], 0.293, 2.873, [0.072, 0.143, 0.143, 0.236, 0.343, 0.386, 0.428, 0.5, 0.622]]",
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "id": "test-00410476",
+      "original_attempts": [
+        {
+          "number": 1,
+          "status": "failed",
+          "error": "Invalid Python syntax. Return a complete CadQuery program."
+        }
+      ],
+      "response_tokens_reencoded": 2048,
+      "closed_code_fence": false,
+      "sketch_blocks": 9,
+      "repeated_normalized_lines": 27,
+      "policy": "SyntaxError: invalid syntax (<unknown>, line 1)",
+      "body_syntax": {
+        "message": "'(' was never closed",
+        "line": 43,
+        "text": "wp_sketch8 = cq.Workplane(cq.Plane(cq.Vector(-\n"
+      },
+      "classification": "incomplete_generation_with_repetition",
+      "reference_replay": {
+        "valid": true,
+        "geometry": {
+          "valid": true,
+          "dimensions": [
+            0.30592105263157904,
+            0.09375000000000006,
+            1.173108552631579
+          ],
+          "center": [
+            0.004523026315789519,
+            -0.04687499999999997,
+            0.16015625
+          ],
+          "volume": 0.01711765844156414,
+          "broad_dimensions": [
+            0.30592135263157905,
+            0.09375030000000009,
+            1.173108852631579
+          ],
+          "geometric_signature": "[[0.08, 0.261, 1.0], 0.011, 0.488, [0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.006, 0.007, 0.009, 0.009, 0.009, 0.01, 0.013, 0.013, 0.024, 0.026, 0.026, 0.068, 0.107, 0.158]]",
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "id": "test-00540970",
+      "original_attempts": [
+        {
+          "number": 1,
+          "status": "failed",
+          "error": "CAD_timeout"
+        }
+      ],
+      "response_tokens_reencoded": 835,
+      "closed_code_fence": true,
+      "sketch_blocks": 3,
+      "repeated_normalized_lines": 7,
+      "policy": "passed",
+      "replay": {
+        "valid": false,
+        "error": "CAD_timeout"
+      },
+      "replay_seconds": 45.089,
+      "instrumented": {
+        "returncode": -9,
+        "wall_timeout": true
+      },
+      "trace_tail": "CANDIDATE_LINE 1\nCANDIDATE_LINE 3\nCANDIDATE_LINE 4\nCANDIDATE_LINE 5\nCANDIDATE_LINE 6\nCANDIDATE_LINE 7\nCANDIDATE_LINE 9\nCANDIDATE_LINE 10\nCANDIDATE_LINE 11\nCANDIDATE_LINE 12\n",
+      "classification": "execution_timeout",
+      "reference_replay": {
+        "valid": true,
+        "geometry": {
+          "valid": true,
+          "dimensions": [
+            1.4765625,
+            1.2745065789473684,
+            0.75
+          ],
+          "center": [
+            -0.00390625,
+            0.0,
+            0.375
+          ],
+          "volume": 0.9934649678531077,
+          "broad_dimensions": [
+            1.4765627,
+            1.2745067789473683,
+            0.7500001999999999
+          ],
+          "geometric_signature": "[[0.508, 0.863, 1.0], 0.309, 2.741, [0.113, 0.168, 0.168, 0.169, 0.169, 0.169, 0.169, 0.438, 0.532, 0.645]]",
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "id": "test-00790402",
+      "original_attempts": [
+        {
+          "number": 1,
+          "status": "failed",
+          "error": "ValueError: invalid_or_multiple_solids\n"
+        }
+      ],
+      "response_tokens_reencoded": 388,
+      "closed_code_fence": true,
+      "sketch_blocks": 1,
+      "repeated_normalized_lines": 0,
+      "policy": "passed",
+      "replay": {
+        "valid": false,
+        "error": "ValueError: invalid_or_multiple_solids\n"
+      },
+      "replay_seconds": 3.253,
+      "instrumented": {
+        "returncode": 2,
+        "wall_timeout": false
+      },
+      "trace_tail": "CANDIDATE_LINE 1\nCANDIDATE_LINE 3\nCANDIDATE_LINE 4\nCANDIDATE_LINE 5\nCANDIDATE_LINE 6\nCANDIDATE_LINE 7\nCANDIDATE_LINE 9\nValueError: invalid_or_multiple_solids {\"count\": 1, \"valid\": [false], \"volumes\": [0.0346166189207947]}\n",
+      "classification": "invalid_geometry",
+      "reference_replay": {
+        "valid": true,
+        "geometry": {
+          "valid": true,
+          "dimensions": [
+            1.34375,
+            1.2164473684210526,
+            0.03125
+          ],
+          "center": [
+            -0.078125,
+            -0.0011513157894736947,
+            0.015625
+          ],
+          "volume": 0.044956740029228504,
+          "broad_dimensions": [
+            1.3437502,
+            1.2164475684210525,
+            0.031250200000000006
+          ],
+          "geometric_signature": "[[0.023, 0.905, 1.0], 0.019, 1.689, [0.002, 0.002, 0.005, 0.005, 0.017, 0.021, 0.021, 0.023, 0.797, 0.797]]",
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "id": "test-00932166",
+      "original_attempts": [
+        {
+          "number": 1,
+          "status": "failed",
+          "error": "ValueError: invalid_or_multiple_solids\n"
+        }
+      ],
+      "response_tokens_reencoded": 259,
+      "closed_code_fence": true,
+      "sketch_blocks": 1,
+      "repeated_normalized_lines": 0,
+      "policy": "passed",
+      "replay": {
+        "valid": false,
+        "error": "ValueError: invalid_or_multiple_solids\n"
+      },
+      "replay_seconds": 3.21,
+      "instrumented": {
+        "returncode": 2,
+        "wall_timeout": false
+      },
+      "trace_tail": "CANDIDATE_LINE 1\nCANDIDATE_LINE 3\nCANDIDATE_LINE 4\nCANDIDATE_LINE 5\nCANDIDATE_LINE 6\nCANDIDATE_LINE 8\nValueError: invalid_or_multiple_solids {\"count\": 1, \"valid\": [false], \"volumes\": [0.033675769510097396]}\n",
+      "classification": "invalid_geometry",
+      "reference_replay": {
+        "valid": true,
+        "geometry": {
+          "valid": true,
+          "dimensions": [
+            0.7578949368421053,
+            0.7485199368421053,
+            0.7578949368421053
+          ],
+          "center": [
+            0.003947368421052672,
+            -0.3757401315789473,
+            0.0
+          ],
+          "volume": 0.026478915015224397,
+          "broad_dimensions": [
+            0.7578949368421053,
+            0.7485199368421053,
+            0.7578949368421053
+          ],
+          "geometric_signature": "[[0.988, 1.0, 1.0], 0.061, 4.131, [0.004, 0.004, 0.006, 0.006, 0.007, 0.007, 0.007, 0.007, 0.007, 0.007, 0.007, 0.007, 0.007, 0.007, 0.026, 0.027, 0.095, 1.895, 1.997]]",
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "id": "test-00966577",
+      "original_attempts": [
+        {
+          "number": 1,
+          "status": "failed",
+          "error": "Invalid Python syntax. Return a complete CadQuery program."
+        }
+      ],
+      "response_tokens_reencoded": 2048,
+      "closed_code_fence": false,
+      "sketch_blocks": 13,
+      "repeated_normalized_lines": 43,
+      "policy": "SyntaxError: invalid syntax (<unknown>, line 1)",
+      "body_syntax": {
+        "message": "'(' was never closed",
+        "line": 63,
+        "text": "wp_sketch12 = cq.Workplane(cq.Plane(cq.Vector(-0.03125, 0.0, 0.0), cq.Vector(1.0, 0.0, 0.0), cq.Vector(0.0,\n"
+      },
+      "classification": "incomplete_generation_with_repetition",
+      "reference_replay": {
+        "valid": false,
+        "error": "ValueError: invalid_or_multiple_solids\n"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "sample_count": 34,
+  "audited_count": 34,
+  "audit_errors": [],
+  "valid_single_solids": 34,
+  "all_shells_closed_count": 34,
+  "bbox_xyz_within_1pct": 13,
+  "bbox_xyz_within_5pct": 16,
+  "sorted_bbox_within_1pct": 19,
+  "sorted_bbox_within_5pct": 23,
+  "volume_within_5pct": 15,
+  "genus_comparable_count": 33,
+  "genus_mismatch_ids": [
+    "test-00141107",
+    "test-00241318",
+    "test-00442545",
+    "test-00763349",
+    "test-00812431"
+  ],
+  "shell_count_mismatch_ids": [],
+  "all_new_first_answers_identical_to_old": true,
+  "old_mean_iou_raw_44": 0.2330597294773732,
+  "old_mean_iou_aligned_44": 0.4149770320260995,
+  "old_mean_iou_raw_successes": 0.30160670873542417,
+  "old_mean_iou_aligned_successes": 0.5370291002690699,
+  "gpu_started": false,
+  "original_sources_unchanged": true,
+  "directory": "/home/luzhuohong/drawing2CAD/experiments/success-geometry-audit-20261027-190624"
+}

@@ -1,0 +1,1053 @@
+{
+  "source_unchanged": true,
+  "gpu_started": false,
+  "records": [
+    {
+      "id": "test-00306373",
+      "returncode": 2,
+      "steps": [
+        {
+          "line": 1,
+          "source": "import cadquery as cq"
+        },
+        {
+          "line": 3,
+          "source": "wp_sketch0 = cq.Workplane(cq.Plane(cq.Vector(-0.5390625, 0.0, -0.046875), cq.Vector(1.0, 6.123233995736766e-17, -6.123233995736766e-17), cq.Vector(6.123233995736766e-17, -1.0, 6.123233995736766e-17)))",
+          "variable": "wp_sketch0",
+          "objects": []
+        },
+        {
+          "line": 4,
+          "source": "loop0=wp_sketch0.moveTo(1.078125, 0.0).lineTo(1.078125, 0.75).lineTo(0.0, 0.75).lineTo(0.0, 0.0).close()",
+          "variable": "loop0",
+          "objects": [
+            {
+              "type": "Wire",
+              "valid": true,
+              "solids": [],
+              "wires": [
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "line": 5,
+          "source": "loop1=wp_sketch0.moveTo(0.046875, 0.046875).circle(0.046875)",
+          "variable": "loop1",
+          "objects": [
+            {
+              "type": "Wire",
+              "valid": true,
+              "solids": [],
+              "wires": [
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "line": 6,
+          "source": "loop2=wp_sketch0.moveTo(0.984375, 0.046875).circle(0.046875)",
+          "variable": "loop2",
+          "objects": [
+            {
+              "type": "Wire",
+              "valid": true,
+              "solids": [],
+              "wires": [
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "line": 7,
+          "source": "solid0=wp_sketch0.add(loop0).add(loop1).add(loop2).extrude(0.1921875)",
+          "variable": "solid0",
+          "objects": [
+            {
+              "type": "Solid",
+              "valid": false,
+              "solids": [
+                {
+                  "valid": false,
+                  "volume": 0.1527483039340791
+                }
+              ],
+              "wires": [
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 3
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 3
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 1
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 1
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 1
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 1
+                }
+              ],
+              "brep_errors": [
+                {
+                  "kind": "face",
+                  "index": 6,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_IntersectingWires"
+                  ]
+                },
+                {
+                  "kind": "face",
+                  "index": 7,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_IntersectingWires"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "line": 8,
+          "source": "solid=solid0",
+          "variable": "solid",
+          "objects": [
+            {
+              "type": "Solid",
+              "valid": false,
+              "solids": [
+                {
+                  "valid": false,
+                  "volume": 0.1527483039340791
+                }
+              ],
+              "wires": [
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 3
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 3
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 1
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 1
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 1
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 1
+                }
+              ],
+              "brep_errors": [
+                {
+                  "kind": "face",
+                  "index": 6,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_IntersectingWires"
+                  ]
+                },
+                {
+                  "kind": "face",
+                  "index": 7,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_IntersectingWires"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "line": 10,
+          "source": "result = solid",
+          "variable": "result",
+          "objects": [
+            {
+              "type": "Solid",
+              "valid": false,
+              "solids": [
+                {
+                  "valid": false,
+                  "volume": 0.1527483039340791
+                }
+              ],
+              "wires": [
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 3
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 3
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 1
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 1
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 1
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 1
+                }
+              ],
+              "brep_errors": [
+                {
+                  "kind": "face",
+                  "index": 6,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_IntersectingWires"
+                  ]
+                },
+                {
+                  "kind": "face",
+                  "index": 7,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_IntersectingWires"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "first_invalid_shape_line": 7,
+      "first_invalid_solid_line": 7,
+      "reference": {
+        "passed": true,
+        "geometry": {
+          "valid": true,
+          "dimensions": [
+            1.078125,
+            0.7500000000000001,
+            0.1929276315789475
+          ],
+          "center": [
+            -0.0234375,
+            -0.37499999999999994,
+            -0.09884868421052631
+          ],
+          "volume": 0.032667489581450646,
+          "broad_dimensions": [
+            1.0781253,
+            0.7500003000000001,
+            0.1929279315789475
+          ],
+          "geometric_signature": "[[0.179, 0.696, 1.0], 0.026, 2.506, [0.002, 0.002, 0.07, 0.102, 0.102, 0.124, 0.124, 0.149, 0.152, 0.177, 0.179, 0.626, 0.696]]",
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "id": "test-00790402",
+      "returncode": 2,
+      "steps": [
+        {
+          "line": 1,
+          "source": "import cadquery as cq"
+        },
+        {
+          "line": 3,
+          "source": "wp_sketch0 = cq.Workplane(cq.Plane(cq.Vector(-0.671875, 0.0, -0.5625), cq.Vector(1.0, 6.123233995736766e-17, -6.123233995736766e-17), cq.Vector(6.123233995736766e-17, -1.0, 6.123233995736766e-17)))",
+          "variable": "wp_sketch0",
+          "objects": []
+        },
+        {
+          "line": 4,
+          "source": "loop0=wp_sketch0.moveTo(1.34375, 0.0).lineTo(1.34375, 1.2164473684210526).lineTo(0.0, 1.2164473684210526).lineTo(0.0, 0.0).close()",
+          "variable": "loop0",
+          "objects": [
+            {
+              "type": "Wire",
+              "valid": true,
+              "solids": [],
+              "wires": [
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "line": 5,
+          "source": "loop1=wp_sketch0.moveTo(0.671875, 0.0).threePointArc((0.671875, 0.6082236842105263), (0.0, 0.6082236842105263)).lineTo(0.0, 0.0).close()",
+          "variable": "loop1",
+          "objects": [
+            {
+              "type": "Wire",
+              "valid": true,
+              "solids": [],
+              "wires": [
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "line": 6,
+          "source": "solid0=wp_sketch0.add(loop0).add(loop1).extrude(0.03125)",
+          "variable": "solid0",
+          "objects": [
+            {
+              "type": "Solid",
+              "valid": false,
+              "solids": [
+                {
+                  "valid": false,
+                  "volume": 0.0346166189207947
+                }
+              ],
+              "wires": [
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 3
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 3
+                }
+              ],
+              "brep_errors": [
+                {
+                  "kind": "face",
+                  "index": 7,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_IntersectingWires"
+                  ]
+                },
+                {
+                  "kind": "face",
+                  "index": 8,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_IntersectingWires"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "line": 7,
+          "source": "solid=solid0",
+          "variable": "solid",
+          "objects": [
+            {
+              "type": "Solid",
+              "valid": false,
+              "solids": [
+                {
+                  "valid": false,
+                  "volume": 0.0346166189207947
+                }
+              ],
+              "wires": [
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 3
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 3
+                }
+              ],
+              "brep_errors": [
+                {
+                  "kind": "face",
+                  "index": 7,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_IntersectingWires"
+                  ]
+                },
+                {
+                  "kind": "face",
+                  "index": 8,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_IntersectingWires"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "line": 9,
+          "source": "result = solid",
+          "variable": "result",
+          "objects": [
+            {
+              "type": "Solid",
+              "valid": false,
+              "solids": [
+                {
+                  "valid": false,
+                  "volume": 0.0346166189207947
+                }
+              ],
+              "wires": [
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 3
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 3
+                }
+              ],
+              "brep_errors": [
+                {
+                  "kind": "face",
+                  "index": 7,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_IntersectingWires"
+                  ]
+                },
+                {
+                  "kind": "face",
+                  "index": 8,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_IntersectingWires"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "first_invalid_shape_line": 6,
+      "first_invalid_solid_line": 6,
+      "reference": {
+        "passed": true,
+        "geometry": {
+          "valid": true,
+          "dimensions": [
+            1.34375,
+            1.2164473684210526,
+            0.03125
+          ],
+          "center": [
+            -0.078125,
+            -0.0011513157894736947,
+            0.015625
+          ],
+          "volume": 0.044956740029228504,
+          "broad_dimensions": [
+            1.3437502,
+            1.2164475684210525,
+            0.031250200000000006
+          ],
+          "geometric_signature": "[[0.023, 0.905, 1.0], 0.019, 1.689, [0.002, 0.002, 0.005, 0.005, 0.017, 0.021, 0.021, 0.023, 0.797, 0.797]]",
+          "unit": "mm"
+        }
+      }
+    },
+    {
+      "id": "test-00932166",
+      "returncode": 2,
+      "steps": [
+        {
+          "line": 1,
+          "source": "import cadquery as cq"
+        },
+        {
+          "line": 3,
+          "source": "wp_sketch0 = cq.Workplane(cq.Plane(cq.Vector(-0.375, 0.0, 0.0), cq.Vector(1.0, 0.0, 0.0), cq.Vector(0.0, 0.0, 1.0)))",
+          "variable": "wp_sketch0",
+          "objects": []
+        },
+        {
+          "line": 4,
+          "source": "loop0=wp_sketch0.moveTo(0.375, 0.0).threePointArc((0.375, 0.075), (0.3, 0.15)).lineTo(0.0, 0.15).threePointArc((0.0, 0.075), (0.075, 0.0)).lineTo(0.3, 0.0).threePointArc((0.375, 0.075), (0.375, 0.0)).close()",
+          "variable": "loop0",
+          "objects": [
+            {
+              "type": "Wire",
+              "valid": true,
+              "solids": [],
+              "wires": [
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "line": 5,
+          "source": "solid0=wp_sketch0.add(loop0).extrude(0.7484539473684211)",
+          "variable": "solid0",
+          "objects": [
+            {
+              "type": "Solid",
+              "valid": false,
+              "solids": [
+                {
+                  "valid": false,
+                  "volume": 0.033675769510097396
+                }
+              ],
+              "wires": [
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 5
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 5
+                }
+              ],
+              "brep_errors": [
+                {
+                  "kind": "face",
+                  "index": 5,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_UnorientableShape"
+                  ]
+                },
+                {
+                  "kind": "face",
+                  "index": 6,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_UnorientableShape"
+                  ]
+                },
+                {
+                  "kind": "wire",
+                  "index": 5,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_SelfIntersectingWire"
+                  ]
+                },
+                {
+                  "kind": "wire",
+                  "index": 6,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_SelfIntersectingWire"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "line": 6,
+          "source": "solid=solid0",
+          "variable": "solid",
+          "objects": [
+            {
+              "type": "Solid",
+              "valid": false,
+              "solids": [
+                {
+                  "valid": false,
+                  "volume": 0.033675769510097396
+                }
+              ],
+              "wires": [
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 5
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 5
+                }
+              ],
+              "brep_errors": [
+                {
+                  "kind": "face",
+                  "index": 5,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_UnorientableShape"
+                  ]
+                },
+                {
+                  "kind": "face",
+                  "index": 6,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_UnorientableShape"
+                  ]
+                },
+                {
+                  "kind": "wire",
+                  "index": 5,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_SelfIntersectingWire"
+                  ]
+                },
+                {
+                  "kind": "wire",
+                  "index": 6,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_SelfIntersectingWire"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "line": 8,
+          "source": "result = solid",
+          "variable": "result",
+          "objects": [
+            {
+              "type": "Solid",
+              "valid": false,
+              "solids": [
+                {
+                  "valid": false,
+                  "volume": 0.033675769510097396
+                }
+              ],
+              "wires": [
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 4
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 5
+                },
+                {
+                  "valid": true,
+                  "closed": true,
+                  "edges": 5
+                }
+              ],
+              "brep_errors": [
+                {
+                  "kind": "face",
+                  "index": 5,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_UnorientableShape"
+                  ]
+                },
+                {
+                  "kind": "face",
+                  "index": 6,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_UnorientableShape"
+                  ]
+                },
+                {
+                  "kind": "wire",
+                  "index": 5,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_SelfIntersectingWire"
+                  ]
+                },
+                {
+                  "kind": "wire",
+                  "index": 6,
+                  "statuses": [
+                    "BRepCheck_Status.BRepCheck_SelfIntersectingWire"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "first_invalid_shape_line": 5,
+      "first_invalid_solid_line": 5,
+      "reference": {
+        "passed": true,
+        "geometry": {
+          "valid": true,
+          "dimensions": [
+            0.7578949368421053,
+            0.7485199368421053,
+            0.7578949368421053
+          ],
+          "center": [
+            0.003947368421052672,
+            -0.3757401315789473,
+            0.0
+          ],
+          "volume": 0.026478915015224397,
+          "broad_dimensions": [
+            0.7578949368421053,
+            0.7485199368421053,
+            0.7578949368421053
+          ],
+          "geometric_signature": "[[0.988, 1.0, 1.0], 0.061, 4.131, [0.004, 0.004, 0.006, 0.006, 0.007, 0.007, 0.007, 0.007, 0.007, 0.007, 0.007, 0.007, 0.007, 0.007, 0.026, 0.027, 0.095, 1.895, 1.997]]",
+          "unit": "mm"
+        }
+      }
+    }
+  ]
+}

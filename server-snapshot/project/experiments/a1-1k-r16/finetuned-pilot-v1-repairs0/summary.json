@@ -1,0 +1,10 @@
+{
+  "fixed_test_count": 50,
+  "valid_ground_truth_count": 44,
+  "evaluable_count": 44,
+  "valid_generated_solids_on_valid_gt": 34,
+  "metric_error_ids": [],
+  "mean_iou_raw_evaluable": 0.23305972947737327,
+  "mean_iou_translation_aligned_evaluable": 0.4149770320260995,
+  "mean_seconds": 47.95844
+}

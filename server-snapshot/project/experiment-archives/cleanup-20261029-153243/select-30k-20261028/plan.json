@@ -1,0 +1,17 @@
+{
+  "target_train": 30000,
+  "new_train": 20000,
+  "retained_train": 10000,
+  "val": 100,
+  "test": 50,
+  "output": "/data/luzhuohong/drawing2CAD-datasets/pilot-30k-v1",
+  "source": "/data/luzhuohong/drawing2CAD-datasets/pilot-10k-v1",
+  "cpu_workers": 4,
+  "gpu_started": false,
+  "disk_reserve_gib": 15,
+  "continuation_source_index": 35735,
+  "builder_sha256": "7590bc5b337c722b3d5222a677d73213c9d1602bd70c950f308e29196fd68be1",
+  "a2_builder_sha256": "66cfabf5099e153b1b1bb2aae9a1dabc5b315604a8dce71fab3ba8e58bb8fed9",
+  "cutoff_len": null,
+  "length_filter_enabled": false
+}

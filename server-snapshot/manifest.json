@@ -1,0 +1,1033 @@
+{
+  "snapshot_date": "2026-10-30",
+  "sources": {
+    "project": "/home/luzhuohong/drawing2CAD",
+    "experiment-runs": "/data/luzhuohong/drawing2CAD-experiments"
+  },
+  "third_party": {
+    "name": "LLaMA-Factory",
+    "commit": "95ac3f2373b82662c1bd855c284d3379e6a763d3"
+  },
+  "files": [
+    {
+      "path": "project/.dockerignore",
+      "sha256": "b84ff9f95d7ad568f6cc25da53e8f5f8355fe7e9e701bce5b5a913891077ba93",
+      "bytes": 81
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/diagnose_failures_cpu_20261026.py",
+      "sha256": "2630c8da33d68b1c2e1876cc3699dc9f3e3b1439172e1ef198be6a0b08a9b3c3",
+      "bytes": 6311
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/diagnose_three_steps_20261027.py",
+      "sha256": "4e9ec8139b7b3be9a95fdced3385db6dc6f17f5d0c730f7ad7703ccc894a46db",
+      "bytes": 6010
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/baseline-preprocessor-failure-1792855902/protocol.json",
+      "sha256": "7466d51645138bb962461146d2326af19003104b717cbc3af266d9993205ad04",
+      "bytes": 289
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/baseline-preprocessor-failure-1792855902/summary.json",
+      "sha256": "2dbb947e6f9a726f882f41f10c97489dd9c810c71ddfaf3a2a602a06560c2f7e",
+      "bytes": 211
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/failure-diagnosis-cpu-20261026-195252/REPORT.md",
+      "sha256": "fe09b1ed6abf1a20c294de32c60fcb61bbf64f9188b6e994295a1b0c402651ff",
+      "bytes": 4508
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/failure-diagnosis-cpu-20261026-195252/diagnose.py",
+      "sha256": "2630c8da33d68b1c2e1876cc3699dc9f3e3b1439172e1ef198be6a0b08a9b3c3",
+      "bytes": 6311
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/failure-diagnosis-cpu-20261026-195252/summary.json",
+      "sha256": "3f8ba8ae489757569b8eeaebc2b1e54b8cfc774dd0bed9f98669ed7dd3a5cc5b",
+      "bytes": 14794
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/failure-diagnosis-cpu-20261026-195252/runtime/policy.py",
+      "sha256": "51b54171c92f12edf8b31304ada4bd718e1b39c9aef78e81dd41927284bdfefb",
+      "bytes": 1986
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/failure-diagnosis-cpu-20261026-195252/runtime/research_worker.py",
+      "sha256": "5fc2ec6d968b5d6a4e5f0874e3f29c337375fea2b70fff2793ca44907adcb8a0",
+      "bytes": 4895
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/token-limit-change-20261027-130825/server/model.py",
+      "sha256": "c557a9744dd24c57ea7f09308707b5643b719ef6b95b5a1a237e350a7467a7f3",
+      "bytes": 3184
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/token-limit-change-20261027-130825/tools/evaluate_finetuned.py",
+      "sha256": "fbf82e23562e0a10158e304e92b3bb74e0bae789795abb2dfa5be0ef009dcf55",
+      "bytes": 4319
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/token-limit-change-20261027-130825/tools/run_pilot_baseline.py",
+      "sha256": "5923c8bc218045536e382ef78682e289a0d7206136f01670041d67dbb5bf0d77",
+      "bytes": 3989
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/gpu-sharing-staging-20261027/GPU_SHARING.md",
+      "sha256": "183674d9652f2f0e6f28b4c225c02f8e7f841863ea2451aca6794c49ea467274",
+      "bytes": 1643
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/gpu-sharing-staging-20261027/server/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/gpu-sharing-staging-20261027/server/demand_model.py",
+      "sha256": "dfc9d86ea12d7394da4d90cc322db5e5e946c7dc87de14202a879f28e336f02e",
+      "bytes": 4333
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/gpu-sharing-staging-20261027/server/gpu_sharing.py",
+      "sha256": "c282dae9757fd24b4cba65a4cf6a97b1597314e60cd3086c71e836f8482aaaff",
+      "bytes": 2248
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/gpu-sharing-staging-20261027/server/model.py",
+      "sha256": "2d2c6c9761efa39d9ecc57811a29a2312f7df3bf8ae8391868c8480dacde4b94",
+      "bytes": 3473
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/gpu-sharing-staging-20261027/tools/test_demand_model.py",
+      "sha256": "e2b93ca82750e0a59ff0e609f67cafd7ec432bf0b0cb72bdb0741ea65fd4370d",
+      "bytes": 2770
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/gpu-sharing-staging-20261027/tools/test_gpu_sharing.py",
+      "sha256": "cc841ef953914c03d10d5fb40bf475253d370d7b59c78f2d3cc5aa16b8f22228",
+      "bytes": 1965
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/gpu-sharing-staging-20261027/backend/app/worker.py",
+      "sha256": "e88f2e4eb1aa3f21654f7fc675db82a89cffff726bb49cfddceced073b92b023",
+      "bytes": 11048
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-source-backup-20261027-140509/server/app.py",
+      "sha256": "ceb623598ea9f050773be5fac4e1f6d4bd8d9f28e3fbd4691b80fa74c40354df",
+      "bytes": 9609
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-source-backup-20261027-140509/server/bubblewrap_executor.py",
+      "sha256": "5040f5af4eed7c6e47eb9e57147947453f18d6d87248566e6ed91b833a668273",
+      "bytes": 807
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-source-backup-20261027-140509/server/research_sandbox.py",
+      "sha256": "d102e6a710b5296ce4e6ed729e1e573431d3ab7bebc1340ef620322f6795cb91",
+      "bytes": 1827
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-source-backup-20261027-140509/tools/cad-runtime/research_worker.py",
+      "sha256": "928649ebc77fa8e351395d0c547346559d3d2e9ba4e60a013df486796a4d0b87",
+      "bytes": 4492
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/_tool_backups/finish_pilot.py",
+      "sha256": "3a1c0a10839d4f33b89fb907ec4f88fceeef91af3e5bc7d8384e454c7ce05b73",
+      "bytes": 3196
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/_tool_backups/reevaluate_entity_rate.py",
+      "sha256": "6db66fd5bc0e80c7a10f42353f60c809af8adc4e798a690bb3a29e63f93bdc3c",
+      "bytes": 10696
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/_tool_backups/run_rotation_audit.py",
+      "sha256": "4c008992f0f121b0b5f3109dbdbb13ce4b28ce45e3d782e210323b5028a15d86",
+      "bytes": 1926
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/_tool_backups/run_success_geometry_audit.py",
+      "sha256": "4bae98484f34bfbd2fb1ddcd09d25df7979fac4ab83ae58629dec0e8f101acfb",
+      "bytes": 5033
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/select-10k-20261027/select_10k.py",
+      "sha256": "66cfabf5099e153b1b1bb2aae9a1dabc5b315604a8dce71fab3ba8e58bb8fed9",
+      "bytes": 15480
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/select-10k-20261027/runtime/batch_worker.py",
+      "sha256": "5d723d8252fc60ad853b34a36769523e572c1e720c8b1cb1740f55e0008ef952",
+      "bytes": 2687
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/select-10k-20261027/runtime/cad_diagnostics.py",
+      "sha256": "97cffa241654e964494422473bf6be55a6ccdf3e215b045617d623b55adc50a3",
+      "bytes": 2675
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/select-10k-20261027/runtime/policy.py",
+      "sha256": "51b54171c92f12edf8b31304ada4bd718e1b39c9aef78e81dd41927284bdfefb",
+      "bytes": 1986
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/select-10k-20261027/runtime/research_worker.py",
+      "sha256": "486cc642b39da9b746c4353298a0f113a08487e250c9389b27420ac5f9cb1474",
+      "bytes": 4648
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/invalid-solids-step-diagnosis-20261027-133329/REPORT.md",
+      "sha256": "b206c18f07a9097a7d711fdd65b95d255a63d631d1a87460028ea0b3b05b4a7d",
+      "bytes": 4008
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/invalid-solids-step-diagnosis-20261027-133329/diagnose.py",
+      "sha256": "4e9ec8139b7b3be9a95fdced3385db6dc6f17f5d0c730f7ad7703ccc894a46db",
+      "bytes": 6010
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/invalid-solids-step-diagnosis-20261027-133329/summary.json",
+      "sha256": "1e96f2eaa98f7697ca92c2e4145c13c5024fa01ccb40e4d779389b0230140272",
+      "bytes": 28854
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/invalid-solids-step-diagnosis-20261027-133329/runtime/policy.py",
+      "sha256": "51b54171c92f12edf8b31304ada4bd718e1b39c9aef78e81dd41927284bdfefb",
+      "bytes": 1986
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/invalid-solids-step-diagnosis-20261027-133329/runtime/research_worker.py",
+      "sha256": "f5aa825e223b314aa381c8041e250182798469c6c46891a80bb25c6fb5515bff",
+      "bytes": 6613
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/select-30k-20261028/README.md",
+      "sha256": "fa41e405a9dca832572863012bd73178594a3288f52d3b693cd97ef3d76c6745",
+      "bytes": 1248
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/select-30k-20261028/before-no-length-filter.py",
+      "sha256": "a9b1f2bc609aa757727c9354c1d70f1780aff97e227f46a78c47d12f40b3c5cb",
+      "bytes": 17287
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/select-30k-20261028/plan.json",
+      "sha256": "42dea55b32e1801146bcdf5ba1beaf57aa150bce855f2457a6fd20d6d06be263",
+      "bytes": 579
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/select-30k-20261028/select_30k.py",
+      "sha256": "7590bc5b337c722b3d5222a677d73213c9d1602bd70c950f308e29196fd68be1",
+      "bytes": 18370
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/select-30k-20261028/source-a2-select_10k.py",
+      "sha256": "66cfabf5099e153b1b1bb2aae9a1dabc5b315604a8dce71fab3ba8e58bb8fed9",
+      "bytes": 15480
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/select-30k-20261028/runtime/batch_worker.py",
+      "sha256": "5d723d8252fc60ad853b34a36769523e572c1e720c8b1cb1740f55e0008ef952",
+      "bytes": 2687
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/select-30k-20261028/runtime/cad_diagnostics.py",
+      "sha256": "97cffa241654e964494422473bf6be55a6ccdf3e215b045617d623b55adc50a3",
+      "bytes": 2675
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/select-30k-20261028/runtime/policy.py",
+      "sha256": "51b54171c92f12edf8b31304ada4bd718e1b39c9aef78e81dd41927284bdfefb",
+      "bytes": 1986
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/select-30k-20261028/runtime/research_worker.py",
+      "sha256": "486cc642b39da9b746c4353298a0f113a08487e250c9389b27420ac5f9cb1474",
+      "bytes": 4648
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/README.md",
+      "sha256": "c0dd3d90a7d7ffa1d1b7af135ac74ca83dd383b49ad34948483586147b2afecf",
+      "bytes": 5564
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/deploy.py",
+      "sha256": "8d4e9b95f86a9d614d3b6f6173414642fd5809467f76ad152f98d08e9094e72b",
+      "bytes": 2886
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/validate_repairs.py",
+      "sha256": "caaef0fcb6cd984dc95421217afb4aa2f0d752d829c8e99fe9892860b34463d8",
+      "bytes": 6335
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/__init__.py",
+      "sha256": "10bb52d1122e6569d53a9ea09a6b1645d20acdfbf2f09ccc993a6f37cacd82a6",
+      "bytes": 30
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/app.py",
+      "sha256": "91dfa71eb793e45bbb4ad5e190c079f1b4ee3d9fca444938dd92dfab35f8fa30",
+      "bytes": 10205
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/bubblewrap_executor.py",
+      "sha256": "764f0a9bfbddcebb72a41261382b3b464d4d452bd92f47b4391b5e7563ad6141",
+      "bytes": 1070
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/container_runner.py",
+      "sha256": "0df8997b98a81c76ff6cfee0bbc173ee4c42d9b16d5a84b0f918fea9b799943e",
+      "bytes": 2228
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/demand_model.py",
+      "sha256": "6ccfd68019e71785f51ab6921de372e8e8ef596bd9296c9f10b6b75832f481ee",
+      "bytes": 4333
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/evaluate.py",
+      "sha256": "13cdd5e575a857bb02119f1337e7708e490f6066f809b62407eefb3a9ddc2786",
+      "bytes": 5582
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/export_sft.py",
+      "sha256": "38f842e5578b2960f1d4d51cbdad6122a6526a5ce8848995c112ef5713eb4676",
+      "bytes": 1912
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/gpu_sharing.py",
+      "sha256": "c282dae9757fd24b4cba65a4cf6a97b1597314e60cd3086c71e836f8482aaaff",
+      "bytes": 2248
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/inference_once.py",
+      "sha256": "ce790ac440c75337d6f83f7e592f776197992096578048d6b995f585a4dd45ff",
+      "bytes": 834
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/make_dataset.py",
+      "sha256": "0ea328af3afdd875a7811702320a2aa6d81d409c4ab360115f3ba142000f40fe",
+      "bytes": 2244
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/model.py",
+      "sha256": "1d8c847c297f488d53d01a1fdaff8814c9889dc37317c39257ed7641e7f0b799",
+      "bytes": 3473
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/online.py",
+      "sha256": "f541a04a73666ade7a6972e29c65ce7fd77d44281bce43fe2eaa2760e9426dc6",
+      "bytes": 281
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/policy.py",
+      "sha256": "51b54171c92f12edf8b31304ada4bd718e1b39c9aef78e81dd41927284bdfefb",
+      "bytes": 1986
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/research_sandbox.py",
+      "sha256": "8c22a45b1a52245c55e3847dc2197437d5f5c04d809b271f60ed9a2e01cce6d3",
+      "bytes": 1854
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/research_worker.py",
+      "sha256": "928649ebc77fa8e351395d0c547346559d3d2e9ba4e60a013df486796a4d0b87",
+      "bytes": 4492
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/server/sandbox.py",
+      "sha256": "b7bd6f5375db44cae087956b014d9485118915b7285b6ecd2514c37b0549d282",
+      "bytes": 3521
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/tools/cad-runtime/cad_diagnostics.py",
+      "sha256": "97cffa241654e964494422473bf6be55a6ccdf3e215b045617d623b55adc50a3",
+      "bytes": 2675
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/tools/cad-runtime/policy.py",
+      "sha256": "51b54171c92f12edf8b31304ada4bd718e1b39c9aef78e81dd41927284bdfefb",
+      "bytes": 1986
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/tools/cad-runtime/research_worker.py",
+      "sha256": "486cc642b39da9b746c4353298a0f113a08487e250c9389b27420ac5f9cb1474",
+      "bytes": 4648
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/repair-integration-20261027/tools/cad-runtime/sample_compare.py",
+      "sha256": "35f1437b35fd7fd8aeb54121fc5d789f1b381f844ef1d42393127a4a1c1ce2db",
+      "bytes": 1639
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/dataset-audit-20261024/sources/gencad-readme.md",
+      "sha256": "d543db7a042cbd5d02bf35e84ba1d17deb45ba249e3196e644788edb9e907692",
+      "bytes": 2033
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/dataset-audit-20261024/sources/ortho-readme.md",
+      "sha256": "421ea754bfcb4dd84fa90b238d5b08b66f68e4fe5fc2e8039a8433820063fd1a",
+      "bytes": 4596
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/gpu-sharing-backup-20261027-131440/server/demand_model.py",
+      "sha256": "6ad3f44eef6ec4b6c1b6b4b97a3d9efcf69b40c0079c123d34a5f8af2f6f1f2b",
+      "bytes": 3507
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/gpu-sharing-backup-20261027-131440/server/model.py",
+      "sha256": "3b8f93d81bd0949d279d9d9f4ab7378bac4bb7356a2661cedfa1fc3363b6e46a",
+      "bytes": 3185
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/gpu-sharing-backup-20261027-131440/tools/test_demand_model.py",
+      "sha256": "12dc8dc62de316000641ab3fb95d41ae782d1f78e5c8b0f19a54e20a0f46cc3a",
+      "bytes": 1885
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/timeout600-backup-20261027-132846/demand_model.py",
+      "sha256": "dfc9d86ea12d7394da4d90cc322db5e5e946c7dc87de14202a879f28e336f02e",
+      "bytes": 4333
+    },
+    {
+      "path": "project/experiment-archives/cleanup-20261029-153243/timeout600-backup-20261027-132846/model.py",
+      "sha256": "2d2c6c9761efa39d9ecc57811a29a2312f7df3bf8ae8391868c8480dacde4b94",
+      "bytes": 3473
+    },
+    {
+      "path": "project/experiment-archives/tools-cleanup-20261029-160520/audit_ortho_dataset.py",
+      "sha256": "f21f4339afa04d97ac68e239eca6d689f6c60428a74fec56c14528562646da9d",
+      "bytes": 8288
+    },
+    {
+      "path": "project/experiment-archives/tools-cleanup-20261029-160520/audit_rotations.py",
+      "sha256": "f12f618e5dc9a101f97764f68b00198aef9e97eb69738695dd4a9f458c5f2717",
+      "bytes": 3495
+    },
+    {
+      "path": "project/experiment-archives/tools-cleanup-20261029-160520/check_audit_step_geometry.py",
+      "sha256": "5cbf316839cdd57d2cf77ba284f39445fe5f05a87c4c6638b5c27ffd3bdc6cec",
+      "bytes": 1165
+    },
+    {
+      "path": "project/experiment-archives/tools-cleanup-20261029-160520/continue_after_smoke.py",
+      "sha256": "b03a8eaf255482f6b78987bed9f92a45965bc91dfcbe5443f9782f89b0546a6d",
+      "bytes": 2772
+    },
+    {
+      "path": "project/experiment-archives/tools-cleanup-20261029-160520/finalize_dataset_audit.py",
+      "sha256": "6cf867c4e28b4101dd6a11644c7e0ebff03361f39a9342d2001cf7a3e5bdd6c9",
+      "bytes": 10452
+    },
+    {
+      "path": "project/experiment-archives/tools-cleanup-20261029-160520/finish_pilot.py",
+      "sha256": "71379085dc781562f89de311702418b9a7aaa565ac2e5716b4b89b9bd44c0a0b",
+      "bytes": 3216
+    },
+    {
+      "path": "project/experiment-archives/tools-cleanup-20261029-160520/prepare_training_configs.py",
+      "sha256": "3d6aff8d64496012be1a727efa3cba6c8b0013148d41f1190525199f3d5b4662",
+      "bytes": 1097
+    },
+    {
+      "path": "project/experiment-archives/tools-cleanup-20261029-160520/run_rotation_audit.py",
+      "sha256": "bf7cd626b20fa7778eaee250e51434703d3f21d2305c7ee5af448cc9a29a841e",
+      "bytes": 1946
+    },
+    {
+      "path": "project/experiments/a3-10k-r16-projector/PROTOCOL.md",
+      "sha256": "22518ecb84c9e9e1ddbfdea076b2f8988f5ad105e4fa7948c781ecd20ba830c1",
+      "bytes": 1803
+    },
+    {
+      "path": "project/experiments/a3-10k-r16-projector/a1-config.yaml",
+      "sha256": "575363f24943e2c3a23c9c373b13b852e7a44bf8fccd4af8c0c2ead6f63a4ed8",
+      "bytes": 1068
+    },
+    {
+      "path": "project/experiments/a3-10k-r16-projector/check_cpu.py",
+      "sha256": "8997716a1ca1bf2727610733e516cc12f72edb977c378c590cc1d285cb3fcddd",
+      "bytes": 1770
+    },
+    {
+      "path": "project/experiments/a3-10k-r16-projector/launch_a3.py",
+      "sha256": "8ae45688400d8b32125cb1b4b1891066f351f85a4067a5cc4329afcb0e4c3edd",
+      "bytes": 9610
+    },
+    {
+      "path": "project/experiments/a3-10k-r16-projector/monitor_a3.py",
+      "sha256": "3ef3f1a93a866119d1c749077d3ec2aab9200a14eb1eafb25b9e15dd84ddaf2c",
+      "bytes": 3139
+    },
+    {
+      "path": "project/experiments/a3-10k-r16-projector/train-a3-10k.yaml",
+      "sha256": "540b77c10ef3e71dd106c716cda0db70b341f1cd6c9b362865cd91d256acea8b",
+      "bytes": 1341
+    },
+    {
+      "path": "project/experiments/a3-10k-r16-projector/train_with_budget.py",
+      "sha256": "7a8058f1d951a90b0c88312d2e82765ddb798a33f6ac4a382cb19759616f62b9",
+      "bytes": 5538
+    },
+    {
+      "path": "project/experiments/a3-10k-r16-projector/before-42gib-change/PROTOCOL.md",
+      "sha256": "9f0383786d6c2bd645393e025af024173d6260849cc5ab6e830a35f78b00ef92",
+      "bytes": 1830
+    },
+    {
+      "path": "project/experiments/a3-10k-r16-projector/before-42gib-change/launch_a3.py",
+      "sha256": "74931e0fd708e232e8f8e2a93ed3c06e851d5eb513fc093387fcc6596c97120f",
+      "bytes": 9651
+    },
+    {
+      "path": "project/experiments/a3-10k-r16-projector/before-42gib-change/train_with_budget.py",
+      "sha256": "486965d7fb5a2e9dba329c986f2b9f7988001f086c3489ff4766bf529a0f9ba4",
+      "bytes": 5553
+    },
+    {
+      "path": "project/experiments/a2-10k-r16/a1-config.yaml",
+      "sha256": "575363f24943e2c3a23c9c373b13b852e7a44bf8fccd4af8c0c2ead6f63a4ed8",
+      "bytes": 1068
+    },
+    {
+      "path": "project/experiments/a2-10k-r16/launch_a2.py",
+      "sha256": "26cce6313c0735e3283902d07d077207c12e1ba792c1e76fcb23c3e2bd40f9f5",
+      "bytes": 8990
+    },
+    {
+      "path": "project/experiments/a2-10k-r16/monitor_a2.py",
+      "sha256": "cb5b6f94dce158fed4bbb1c11a8050c336ed08b7c1cb1240914fbc70d2e4f2af",
+      "bytes": 3129
+    },
+    {
+      "path": "project/experiments/a2-10k-r16/test_launch_a2.py",
+      "sha256": "f56c7f150dd34d794b812304c025e7001e4e9156827c28b76acd4e6b8b4a846b",
+      "bytes": 1256
+    },
+    {
+      "path": "project/experiments/a2-10k-r16/train-a2-10k.yaml",
+      "sha256": "9652471ff1cc484d2b8217cc7f6c3440d9abbdba810b176c5dca1c54b1601b3b",
+      "bytes": 1128
+    },
+    {
+      "path": "project/experiments/a2-10k-r16/train_with_budget.py",
+      "sha256": "d1c9662433d6030c3c7b9da17bab0ffb602f422afde5109c0a079f023ca90d4a",
+      "bytes": 635
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/README.md",
+      "sha256": "9ea990f37911ee2fa957a37bf79fb88a70ea78c858f1d58163c5dee75f565efc",
+      "bytes": 887
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/train-a1-1k.yaml",
+      "sha256": "575363f24943e2c3a23c9c373b13b852e7a44bf8fccd4af8c0c2ead6f63a4ed8",
+      "bytes": 1068
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/entity-rate-current-20261027-141244/ANALYSIS.md",
+      "sha256": "54dcec35c90bb233c6029bfc47ab53decd2d37a85e3e45e7ad113f7b7b8ea59f",
+      "bytes": 5323
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/entity-rate-current-20261027-141244/README.md",
+      "sha256": "f88db274d4f267a5c169e5fed30cbe61e64475011d23a06466277d5f57b28885",
+      "bytes": 2212
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/entity-rate-current-20261027-141244/protocol.json",
+      "sha256": "c148aa4d67eaec7150259df04079f6fe32f455f309d9c76ee924efff6affcbfa",
+      "bytes": 27176
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/entity-rate-current-20261027-141244/summary.json",
+      "sha256": "fc431e926de78bc22b0bb70cc3705012256efbc7b6feed53302fb4607a20bded",
+      "bytes": 504
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/finetuned-pilot-v1-repairs2/protocol.json",
+      "sha256": "98d9c4d2a3d986853ee487e7b79c091f6323854154729a6a704f7d3460f30037",
+      "bytes": 552
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/finetuned-pilot-v1-repairs2/summary.json",
+      "sha256": "ff2d1be08d3bec74880685b8f9a6007ae3fc575b837c8b87e0efba439a974886",
+      "bytes": 330
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/baseline-pilot-v1/protocol.json",
+      "sha256": "7466d51645138bb962461146d2326af19003104b717cbc3af266d9993205ad04",
+      "bytes": 289
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/baseline-pilot-v1/summary.json",
+      "sha256": "faf63ca56b4639736bd3dd45ebd2215afeaaa800be96ff727cfbc64d469ae86e",
+      "bytes": 240
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/finetuned-pilot-v1-repairs0/protocol.json",
+      "sha256": "e7eb5f2cb2e4e8848b1a3dd5fac2c1235d71f4b251cba0a3c0ecd6417ccacccb",
+      "bytes": 552
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/finetuned-pilot-v1-repairs0/summary.json",
+      "sha256": "50e4c08ccb865738524b7ea9b335bb76a377eb806b0469d93a33d8e4c649198b",
+      "bytes": 298
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/success-geometry-audit-20261027-190624/REPORT.md",
+      "sha256": "3549c8d983fca457cd6b64aad762de2e7bf7a26118e595f347ab3bbf98ba335e",
+      "bytes": 10686
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/success-geometry-audit-20261027-190624/audit.py",
+      "sha256": "4bae98484f34bfbd2fb1ddcd09d25df7979fac4ab83ae58629dec0e8f101acfb",
+      "bytes": 5033
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/success-geometry-audit-20261027-190624/summary.json",
+      "sha256": "03972799faaece5f90c58a3b1b5df8376adf2e6e49c592a18bf656848d3e33c7",
+      "bytes": 899
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/success-geometry-audit-20261027-190624/runtime/audit_rotations.py",
+      "sha256": "f12f618e5dc9a101f97764f68b00198aef9e97eb69738695dd4a9f458c5f2717",
+      "bytes": 3495
+    },
+    {
+      "path": "project/experiments/a1-1k-r16/success-geometry-audit-20261027-190624/runtime/audit_step_shapes.py",
+      "sha256": "0cd754a2168152766fdbfe2c0a5202bafdc9434b59b060ddd7a5a8a092641e96",
+      "bytes": 5009
+    },
+    {
+      "path": "project/server/Dockerfile.cad",
+      "sha256": "37b49620050193367128d4a2c24039aee59bed8a35f231ec7a9da55dec58a6fd",
+      "bytes": 411
+    },
+    {
+      "path": "project/server/README.md",
+      "sha256": "9138926b85e2180faeb012fda66c3051520468613e9225baebc7680065a22691",
+      "bytes": 8890
+    },
+    {
+      "path": "project/server/__init__.py",
+      "sha256": "10bb52d1122e6569d53a9ea09a6b1645d20acdfbf2f09ccc993a6f37cacd82a6",
+      "bytes": 30
+    },
+    {
+      "path": "project/server/app.py",
+      "sha256": "91dfa71eb793e45bbb4ad5e190c079f1b4ee3d9fca444938dd92dfab35f8fa30",
+      "bytes": 10205
+    },
+    {
+      "path": "project/server/bubblewrap_executor.py",
+      "sha256": "764f0a9bfbddcebb72a41261382b3b464d4d452bd92f47b4391b5e7563ad6141",
+      "bytes": 1070
+    },
+    {
+      "path": "project/server/container_runner.py",
+      "sha256": "0df8997b98a81c76ff6cfee0bbc173ee4c42d9b16d5a84b0f918fea9b799943e",
+      "bytes": 2228
+    },
+    {
+      "path": "project/server/demand_model.py",
+      "sha256": "6ccfd68019e71785f51ab6921de372e8e8ef596bd9296c9f10b6b75832f481ee",
+      "bytes": 4333
+    },
+    {
+      "path": "project/server/evaluate.py",
+      "sha256": "13cdd5e575a857bb02119f1337e7708e490f6066f809b62407eefb3a9ddc2786",
+      "bytes": 5582
+    },
+    {
+      "path": "project/server/export_sft.py",
+      "sha256": "38f842e5578b2960f1d4d51cbdad6122a6526a5ce8848995c112ef5713eb4676",
+      "bytes": 1912
+    },
+    {
+      "path": "project/server/gpu_sharing.py",
+      "sha256": "c282dae9757fd24b4cba65a4cf6a97b1597314e60cd3086c71e836f8482aaaff",
+      "bytes": 2248
+    },
+    {
+      "path": "project/server/inference_once.py",
+      "sha256": "ce790ac440c75337d6f83f7e592f776197992096578048d6b995f585a4dd45ff",
+      "bytes": 834
+    },
+    {
+      "path": "project/server/make_dataset.py",
+      "sha256": "0ea328af3afdd875a7811702320a2aa6d81d409c4ab360115f3ba142000f40fe",
+      "bytes": 2244
+    },
+    {
+      "path": "project/server/model.py",
+      "sha256": "1d8c847c297f488d53d01a1fdaff8814c9889dc37317c39257ed7641e7f0b799",
+      "bytes": 3473
+    },
+    {
+      "path": "project/server/online.py",
+      "sha256": "f541a04a73666ade7a6972e29c65ce7fd77d44281bce43fe2eaa2760e9426dc6",
+      "bytes": 281
+    },
+    {
+      "path": "project/server/policy.py",
+      "sha256": "51b54171c92f12edf8b31304ada4bd718e1b39c9aef78e81dd41927284bdfefb",
+      "bytes": 1986
+    },
+    {
+      "path": "project/server/preflight.sh",
+      "sha256": "435c4466ada777a9c35680d0429827dc9fb9de9e40f2a92cde9b3030f53dceb4",
+      "bytes": 399
+    },
+    {
+      "path": "project/server/requirements.txt",
+      "sha256": "56cc22725f93e6da338b9c7759cf88a0926a146f0eadf197aa84dfa2028675b0",
+      "bytes": 164
+    },
+    {
+      "path": "project/server/research_sandbox.py",
+      "sha256": "8c22a45b1a52245c55e3847dc2197437d5f5c04d809b271f60ed9a2e01cce6d3",
+      "bytes": 1854
+    },
+    {
+      "path": "project/server/research_worker.py",
+      "sha256": "928649ebc77fa8e351395d0c547346559d3d2e9ba4e60a013df486796a4d0b87",
+      "bytes": 4492
+    },
+    {
+      "path": "project/server/sandbox.py",
+      "sha256": "b7bd6f5375db44cae087956b014d9485118915b7285b6ecd2514c37b0549d282",
+      "bytes": 3521
+    },
+    {
+      "path": "project/server/server.env.example",
+      "sha256": "0391bb247540ebedba50f72a7aa79dd48d00fd015e434083ca5d1b43062673a5",
+      "bytes": 212
+    },
+    {
+      "path": "project/server/setup.sh",
+      "sha256": "6433b3991770730890dd63a540282d5faeb1092f7255a7797fc3c1a03bbce265",
+      "bytes": 1127
+    },
+    {
+      "path": "project/server/start.sh",
+      "sha256": "7ab780145b4501621b51553dc2ddd6bc4217dee4c52e718009937ff40c48e3be",
+      "bytes": 263
+    },
+    {
+      "path": "project/server/tests/test_server.py",
+      "sha256": "efce1b85c55a5a9c545350d9b336b25472a246ab1d1d0ad3802b937f6640a454",
+      "bytes": 10584
+    },
+    {
+      "path": "project/tools/README.md",
+      "sha256": "d2aa0b9c2146dc0806434183292ba87e6b805620067238ad901fb520460795d2",
+      "bytes": 3080
+    },
+    {
+      "path": "project/tools/audit_step_shapes.py",
+      "sha256": "0cd754a2168152766fdbfe2c0a5202bafdc9434b59b060ddd7a5a8a092641e96",
+      "bytes": 5009
+    },
+    {
+      "path": "project/tools/evaluate_finetuned.py",
+      "sha256": "3d71f6fafc5d6b4da412d15c944d2d065c470ebc8213ec12b49667ab8812ff5a",
+      "bytes": 4333
+    },
+    {
+      "path": "project/tools/export_checked.py",
+      "sha256": "c5b44d0962ed5af80ac35965f7b1bcc1b163ef204111a28944c4b4980d96532c",
+      "bytes": 1834
+    },
+    {
+      "path": "project/tools/export_pilot_sft.py",
+      "sha256": "1c80a03fc9d3df092bbfce3a3b734dec8bc29b074a7d3f69ceb46e1bc6e1aab0",
+      "bytes": 2935
+    },
+    {
+      "path": "project/tools/launch_training.py",
+      "sha256": "686ecd05b539e756af38d455d7a3b81855b1cb2ddc00dcbc167a37ac61572672",
+      "bytes": 3643
+    },
+    {
+      "path": "project/tools/prepare_pilot.py",
+      "sha256": "8a0e459b1a848738c53d261c6c5a371c4d6345735719a229929775bcb1b88943",
+      "bytes": 6542
+    },
+    {
+      "path": "project/tools/reevaluate_entity_rate.py",
+      "sha256": "3b72b27a61f8d9cc82bdc18757fff3aa01fdb2c67add356b6ec46161a2688691",
+      "bytes": 10706
+    },
+    {
+      "path": "project/tools/run_pilot_baseline.py",
+      "sha256": "fd5bc8df63a144e3bf6325e30ee2a8f7949b8e77e57116559a11139200f7a117",
+      "bytes": 4003
+    },
+    {
+      "path": "project/tools/run_success_geometry_audit.py",
+      "sha256": "d60bbd1d05e184c0fb85b93547b2081103cd0c54e59e01cd6b02b5181725c061",
+      "bytes": 5053
+    },
+    {
+      "path": "project/tools/start_online.py",
+      "sha256": "90f3de05bc54b715601c78b3451a0eb8872eb6e3d9afc182640c6bafbc1bbf8f",
+      "bytes": 999
+    },
+    {
+      "path": "project/tools/test_demand_model.py",
+      "sha256": "e2b93ca82750e0a59ff0e609f67cafd7ec432bf0b0cb72bdb0741ea65fd4370d",
+      "bytes": 2770
+    },
+    {
+      "path": "project/tools/test_gpu_sharing.py",
+      "sha256": "cc841ef953914c03d10d5fb40bf475253d370d7b59c78f2d3cc5aa16b8f22228",
+      "bytes": 1965
+    },
+    {
+      "path": "project/tools/test_model_input.py",
+      "sha256": "2f0fcd3cb886f5fbd33394bef6d9fc97070f359fbc4e289fb4e13b5f10c103eb",
+      "bytes": 1304
+    },
+    {
+      "path": "project/tools/test_online_executor.py",
+      "sha256": "3e908a751ee82aa4714cd754dbfc3d241795ce2dcdfcc7017cee0e6c23471d89",
+      "bytes": 2361
+    },
+    {
+      "path": "project/tools/test_pilot.py",
+      "sha256": "e9529564377b288666d7bc82af372b5dc276acbf489a1d753474c8e42969c9d9",
+      "bytes": 1580
+    },
+    {
+      "path": "project/tools/test_reevaluate_entity_rate.py",
+      "sha256": "e78a1be6ef965bb5d043a5cf8a8602027b1324f22902d481c38f9bd650740834",
+      "bytes": 1917
+    },
+    {
+      "path": "project/tools/cad-runtime/cad_diagnostics.py",
+      "sha256": "97cffa241654e964494422473bf6be55a6ccdf3e215b045617d623b55adc50a3",
+      "bytes": 2675
+    },
+    {
+      "path": "project/tools/cad-runtime/policy.py",
+      "sha256": "51b54171c92f12edf8b31304ada4bd718e1b39c9aef78e81dd41927284bdfefb",
+      "bytes": 1986
+    },
+    {
+      "path": "project/tools/cad-runtime/research_worker.py",
+      "sha256": "486cc642b39da9b746c4353298a0f113a08487e250c9389b27420ac5f9cb1474",
+      "bytes": 4648
+    },
+    {
+      "path": "project/backend/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "project/backend/requirements.lock.txt",
+      "sha256": "6b7d39168dac83d4cbc3ed408ac4b4939508f1aed4799a298571bca1071e835d",
+      "bytes": 1759
+    },
+    {
+      "path": "project/backend/requirements.txt",
+      "sha256": "0ae812b5b2d2324979625873b58cef74dedee85cf11d80a603c8deb1abc000d1",
+      "bytes": 178
+    },
+    {
+      "path": "project/backend/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "project/backend/app/cad_runner.py",
+      "sha256": "145d8d22445fccc4cfe85f377a9362c00b38261d26f1334be4dea9a1b21b3eb2",
+      "bytes": 4789
+    },
+    {
+      "path": "project/backend/app/config.py",
+      "sha256": "b3af2b94e0c12ca9bc8ba92a6fc4d33f460a7e59d3060588c9075c5f94e1ff91",
+      "bytes": 918
+    },
+    {
+      "path": "project/backend/app/main.py",
+      "sha256": "f01078a4af2f9d544c31158c34719f347ca6e35656ac999b45d5f5a39da33a17",
+      "bytes": 11550
+    },
+    {
+      "path": "project/backend/app/schemas.py",
+      "sha256": "6f4d41ec96ce53b07c713acd96e80ac81b5e002c943e42cd12046fffe641900f",
+      "bytes": 666
+    },
+    {
+      "path": "project/backend/app/store.py",
+      "sha256": "68ab312018e1ad527575fac850aa61d8a807d23c7a5770701ae859aa16953b19",
+      "bytes": 3077
+    },
+    {
+      "path": "project/backend/app/worker.py",
+      "sha256": "e502f80734aa2b5b2593a611c769d0006f812569c1ab15cc250d38e5e8b65dd4",
+      "bytes": 9303
+    },
+    {
+      "path": "project/backend/tests/test_api.py",
+      "sha256": "8cd5026575aadbbc23c9621ff6ca88978f1586679c864fec602204deab102fe4",
+      "bytes": 7118
+    },
+    {
+      "path": "project/configs/export-pilot-v1.yaml",
+      "sha256": "6b25babd4942bbe4cead0b356149c06ace09478f1d2620fccdf0b9e74fb919dd",
+      "bytes": 274
+    },
+    {
+      "path": "project/configs/lora-pilot-v1.yaml",
+      "sha256": "d7bc5913e49e51fbd1f70d423fbea14a46a9f69a1ca794ee488e04c4d4f914da",
+      "bytes": 983
+    },
+    {
+      "path": "project/configs/smoke-pilot-v1.yaml",
+      "sha256": "19825a206bdfe7f9b68840556852c7d9dc20a1bdea328706184f76c216243a55",
+      "bytes": 1005
+    },
+    {
+      "path": "project/configs/train-pilot-v1.yaml",
+      "sha256": "575363f24943e2c3a23c9c373b13b852e7a44bf8fccd4af8c0c2ead6f63a4ed8",
+      "bytes": 1068
+    },
+    {
+      "path": "experiment-runs/a2-test-20261028-v1/REPORT.md",
+      "sha256": "e354af35b75cea094c5c5e7909c635858b9243c89c8238e39c280dd3f45de029",
+      "bytes": 5980
+    },
+    {
+      "path": "experiment-runs/a2-test-20261028-v1/evaluate_a2.py",
+      "sha256": "5e89a9dec22ff7c59ab8ee2ca7367f0811c2d2f0cd2bfe87d928476cdb2c67f2",
+      "bytes": 15305
+    },
+    {
+      "path": "experiment-runs/a2-test-20261028-v1/finalize_results.py",
+      "sha256": "9de86f7f50adc04ae46673fd33279961be594eeedae22e3532c9fc7553cc6205",
+      "bytes": 3239
+    },
+    {
+      "path": "experiment-runs/a2-test-20261028-v1/make_report.py",
+      "sha256": "e877d36a49219101aec9bb384b84bd141f51936672d496ff90c91d6e92fbc32f",
+      "bytes": 6480
+    },
+    {
+      "path": "experiment-runs/a2-test-20261028-v1/protocol.json",
+      "sha256": "01eb4f338f3d02c6b311a7ec28d4b7a17abc26c67212917d400c50cd0385e503",
+      "bytes": 29891
+    },
+    {
+      "path": "experiment-runs/a2-test-20261028-v1/results.csv",
+      "sha256": "bbf6b691cf75d1405116cf2ff05c6e989eb79ac5517386085609d021653af9c9",
+      "bytes": 5860
+    },
+    {
+      "path": "experiment-runs/a2-test-20261028-v1/retry_metrics.py",
+      "sha256": "a76e651ba2f26a7246f00de1bfe6d5444c12493ef52cee4f91f92f2ca2ec32ea",
+      "bytes": 5028
+    },
+    {
+      "path": "experiment-runs/a2-test-20261028-v1/serial_metrics.py",
+      "sha256": "9354885ae6057626c772644a05157b209771d9b32994f384c34d5fc666f3b541",
+      "bytes": 6318
+    },
+    {
+      "path": "experiment-runs/a2-test-20261028-v1/summary-serial.json",
+      "sha256": "3563276c529c98bb9b9e348de0ffc21af4c929da7e38d9bde8930e634f893f99",
+      "bytes": 2092
+    },
+    {
+      "path": "experiment-runs/a2-test-20261028-v1/summary.json",
+      "sha256": "63dfc367a8314c497bf0c5451c472464d0a51d4cb6070fda7a5b041ab5dcbae4",
+      "bytes": 1521
+    },
+    {
+      "path": "experiment-runs/a2-test-20261028-v1/metric-retries/runtime/policy.py",
+      "sha256": "51b54171c92f12edf8b31304ada4bd718e1b39c9aef78e81dd41927284bdfefb",
+      "bytes": 1986
+    },
+    {
+      "path": "experiment-runs/a2-test-20261028-v1/metric-retries/runtime/research_worker.py",
+      "sha256": "3a866dbe1e416fcfa6016a0bbb25af3e93348d84a25a31b1c164d70f366a4285",
+      "bytes": 4650
+    },
+    {
+      "path": "experiment-runs/a2-test-20261028-v1/serial-metrics/protocol.json",
+      "sha256": "9e7325d479b456fa7bf7569a6c395d8a0d0c642f9ff0e766e716cbb8cac4d5a3",
+      "bytes": 350
+    },
+    {
+      "path": "experiment-runs/a2-test-20261028-v1/serial-metrics/runtime/policy.py",
+      "sha256": "51b54171c92f12edf8b31304ada4bd718e1b39c9aef78e81dd41927284bdfefb",
+      "bytes": 1986
+    },
+    {
+      "path": "experiment-runs/a2-test-20261028-v1/serial-metrics/runtime/research_worker.py",
+      "sha256": "6af7a3c59c610a7b099d182423ea16af5c82e50484a255f341592a63545eeb73",
+      "bytes": 4810
+    },
+    {
+      "path": "experiment-runs/a3-test-20261029-v1/REPORT.md",
+      "sha256": "1b364155fae6252e0de378412a8403f5c0ba609cafa95b2726b210223e5853d8",
+      "bytes": 1360
+    },
+    {
+      "path": "experiment-runs/a3-test-20261029-v1/demand_model_a3.py",
+      "sha256": "6736d74d1e5256187438998db119283f8a64e0e4aad758bf57476d249578efc9",
+      "bytes": 4508
+    },
+    {
+      "path": "experiment-runs/a3-test-20261029-v1/evaluate_a3.py",
+      "sha256": "2c9b01a6af5a632f3d2533ebfb9d4d6ec7fd543c161906ea9b0a7e41db54ee8b",
+      "bytes": 14680
+    },
+    {
+      "path": "experiment-runs/a3-test-20261029-v1/gpu_policy_a3.py",
+      "sha256": "dff38fdd8ac67fa859f65898498c693488cac19d0ef081c1ae714a9a40cc3fe5",
+      "bytes": 2245
+    },
+    {
+      "path": "experiment-runs/a3-test-20261029-v1/inference_a3.py",
+      "sha256": "71ded2696772227d69e31d9dc9f0467561a2de6c89bc3870a02428d39ed2a8a8",
+      "bytes": 3605
+    },
+    {
+      "path": "experiment-runs/a3-test-20261029-v1/protocol.json",
+      "sha256": "fa97c16a6f4d073bf3f80c2767e6863e1517049314b6dfb11ec205b9480dd795",
+      "bytes": 30896
+    },
+    {
+      "path": "experiment-runs/a3-test-20261029-v1/results.csv",
+      "sha256": "b3b3711a313c24f04e039dd4b1fa421a94534b5c87f8b6b8b7aedee290808995",
+      "bytes": 4331
+    },
+    {
+      "path": "experiment-runs/a3-test-20261029-v1/summary.json",
+      "sha256": "4044d2d6cfc53d33616f6add7264f821e0400307d83262113e8ae92b594075d5",
+      "bytes": 1472
+    },
+    {
+      "path": "experiment-runs/a3-test-20261029-v1/write_report.py",
+      "sha256": "48cb76534a9525b8c4830ad3a033a7717b83cf260ef2f7c474ef6a048e0dfcc2",
+      "bytes": 3584
+    },
+    {
+      "path": "experiment-runs/a3-test-20261029-v1/metric-runtime/policy.py",
+      "sha256": "51b54171c92f12edf8b31304ada4bd718e1b39c9aef78e81dd41927284bdfefb",
+      "bytes": 1986
+    },
+    {
+      "path": "experiment-runs/a3-test-20261029-v1/metric-runtime/research_worker.py",
+      "sha256": "6af7a3c59c610a7b099d182423ea16af5c82e50484a255f341592a63545eeb73",
+      "bytes": 4810
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+model_name_or_path: ./models/qwen3-vl-8b-instruct
+adapter_name_or_path: ./outputs/qwen3vl-cad-lora-v1
+template: qwen3_vl_nothink
+finetuning_type: lora
+trust_remote_code: false
+export_dir: ./models/drawing2cad-v1
+export_size: 4
+export_device: cpu
+export_legacy_format: false

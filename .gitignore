@@ -15,6 +15,7 @@ server-storage/
 model-cache/
 datasets/
 experiments/
+!/server-snapshot/project/experiments/
 
 # Local credentials, model weights, generated artifacts, and dependencies
 .env.*

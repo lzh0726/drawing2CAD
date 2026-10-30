@@ -1,0 +1,58 @@
+{
+  "completed_count": 44,
+  "test_count": 44,
+  "valid_solid_count": 35,
+  "invalid_count": 9,
+  "pending_count": 0,
+  "valid_solid_rate": 0.7954545454545454,
+  "metric_error_ids": [],
+  "bbox_xyz_within_1pct_count": 29,
+  "bbox_xyz_within_5pct_count": 31,
+  "mean_iou_raw_successful_comparable": 0.6478480739501074,
+  "mean_iou_raw_all": 0.5153336951875854,
+  "mean_iou_translation_aligned_successful_comparable": 0.8388994299390874,
+  "mean_iou_translation_aligned_all": 0.6673063647242743,
+  "status": "completed",
+  "finished_at": "2026-10-28T05:08:55.183442+00:00",
+  "sources_unchanged": true,
+  "baseline": {
+    "completed_count": 44,
+    "test_count": 44,
+    "valid_solid_count": 34,
+    "invalid_count": 10,
+    "pending_count": 0,
+    "valid_solid_rate": 0.7727272727272727,
+    "metric_error_ids": [],
+    "bbox_xyz_within_1pct_count": 13,
+    "bbox_xyz_within_5pct_count": 16,
+    "mean_iou_raw_successful_comparable": 0.3016067087354242,
+    "mean_iou_raw_all": 0.23305972947737327,
+    "mean_iou_translation_aligned_successful_comparable": 0.53702910026907,
+    "mean_iou_translation_aligned_all": 0.4149770320260995
+  },
+  "protocol_file": "/data/luzhuohong/drawing2CAD-experiments/a2-test-20261028-v1/protocol.json",
+  "newly_valid_ids": [
+    "test-00966577",
+    "test-00790402",
+    "test-00540970",
+    "test-00306373"
+  ],
+  "regressed_ids": [
+    "test-00442545",
+    "test-00241318",
+    "test-00144800"
+  ],
+  "mean_seconds": 150.883,
+  "metric_retry_protocol": {
+    "cpu_seconds": 120,
+    "wall_seconds": 300,
+    "runtime_directory": "/data/luzhuohong/drawing2CAD-experiments/a2-test-20261028-v1/metric-retries/runtime",
+    "original_records_preserved": true,
+    "note": "Longer budget applies only to trusted STEP comparison, never to generated CAD code."
+  },
+  "baseline_historical_metric_reuse_ids": [],
+  "metric_execution_mode": "All valid A1/A2 STEP compared with serial OCC Boolean operations in Bubblewrap",
+  "serial_control_max_abs_delta": 0.0,
+  "serial_control_comparison_count": 128,
+  "metrics_finished_at": "2026-10-28T05:09:24.312688+00:00"
+}

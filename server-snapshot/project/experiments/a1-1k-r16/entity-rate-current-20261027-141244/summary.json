@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "completed_count": 44,
+  "valid_ground_truth_count": 44,
+  "first_pass_valid_count": 34,
+  "repair_added_valid_count": 0,
+  "final_valid_count": 34,
+  "first_pass_rate": 0.7727272727272727,
+  "final_valid_rate": 0.7727272727272727,
+  "baseline_valid_count": 34,
+  "baseline_denominator": 44,
+  "pending_ids": [],
+  "operational_failure_ids": [],
+  "updated_at": "2026-10-27T09:14:54.692210+00:00",
+  "sources_unchanged": true,
+  "newly_valid_ids": [],
+  "regressed_ids": []
+}
